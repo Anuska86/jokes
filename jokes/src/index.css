@@ -1,0 +1,27 @@
+header {
+  height: 90px;
+  background-color: #E17564;
+  border-radius: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-family: serif;
+  font-weight: 300;
+  margin-top: 22px;
+  color: #3b2e24;
+  text-align: center;
+}
+
+body {
+  background-color: #FBF5DD;
+}
+
+h2 {
+  color: #09122C;
+}
