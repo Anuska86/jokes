@@ -2,13 +2,10 @@ export default function Jokes(props) {
   console.log(props);
   return (
     <div>
-      <li>
-        {" "}
-        <h2>{props.setup}</h2>
-      </li>
-      <li>
-        <h3>{props.punchline}</h3>
-      </li>
+      {props.setup && <p className="setup">Setup: {props.setup}</p>}
+
+      <p className="punchline">Punchline: {props.punchline}</p>
+      <hr />
     </div>
   );
 }

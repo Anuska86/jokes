@@ -1,6 +1,6 @@
 header {
   height: 90px;
-  background-color: #E17564;
+  background-color: #8D0B41;
   border-radius: 5px;
 }
 
@@ -14,14 +14,15 @@ h1 {
   font-family: serif;
   font-weight: 300;
   margin-top: 22px;
-  color: #3b2e24;
+  color: #cca066;
   text-align: center;
 }
 
 body {
-  background-color: #FBF5DD;
+  background-color: #FFF8E6;
+  margin: 10px;
+  font-size: 1.2em;
 }
-
-h2 {
-  color: #09122C;
+.setup {
+  font-weight: bold;
 }

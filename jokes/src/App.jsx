@@ -28,6 +28,7 @@ function App() {
           setup="What do you call a cow with no legs?"
           punchline="Ground beef!"
         />
+        <Jokes punchline="It's hard to explain puns to kleptomaniacs because they always take things literally." />
       </div>
     </div>
   );
