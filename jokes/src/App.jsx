@@ -11,10 +11,10 @@ function App() {
 
   return (
     <div>
-      <div className="Header">
+      <div className="header">
         <Header />
       </div>
-      <div className="Jokes">{jokeElements}</div>
+      <div className="jokes">{jokeElements}</div>
     </div>
   );
 }
