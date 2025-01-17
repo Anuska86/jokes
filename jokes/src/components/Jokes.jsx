@@ -2,7 +2,7 @@ export default function Jokes(props) {
   console.log(props);
   return (
     <div>
-      {props.setup && <p className="setup">Setup: {props.setup}</p>}
+      {props.question && <p className="question">Setup: {props.question}</p>}
 
       <p className="punchline">Punchline: {props.punchline}</p>
       <hr />
