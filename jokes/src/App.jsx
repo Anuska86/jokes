@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Jokes from "./components/Jokes";
-import jokesdata from "./jokesdata";
+import jokesdata from "./jokesData";
 
 function App() {
   console.log(jokesdata);
