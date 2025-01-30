@@ -10,11 +10,12 @@ export default function Jokes(props) {
   console.log(isShown);
   return (
     <div>
-      {props.question && <p className="question">Setup: {props.question}</p>}
-      {isShown === true && (
-        <p className="punchline">Punchline: {props.punchline}</p>
-      )} //Is not necessary to specify isShown === true, because isShown is a boolean
-      <button onClick={toogleIsShown}>Show Punchline</button>
+      {props.question ? <p className="question">{props.question}</p> : null}
+      {isShown ? <p className="punchline">{props.punchline}</p> : null}
+
+      <button onClick={toogleIsShown}>
+        {isShown ? "Hide" : "Show"} punchline
+      </button>
       <hr />
     </div>
   );
